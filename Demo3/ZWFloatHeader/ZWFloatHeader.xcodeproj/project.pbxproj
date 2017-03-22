@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59FAFFB61411631812A3E8DA /* libPods-ZWFloatHeader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B932E34D497924689161B9F /* libPods-ZWFloatHeader.a */; };
+		8A6E81E61E77EDCB00B2762B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E81E51E77EDCB00B2762B /* main.m */; };
+		8A6E81E91E77EDCB00B2762B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E81E81E77EDCB00B2762B /* AppDelegate.m */; };
+		8A6E81EF1E77EDCB00B2762B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6E81ED1E77EDCB00B2762B /* Main.storyboard */; };
+		8A6E81F21E77EDCB00B2762B /* ZWFloatHeader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E81F01E77EDCB00B2762B /* ZWFloatHeader.xcdatamodeld */; };
+		8A6E81F41E77EDCB00B2762B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6E81F31E77EDCB00B2762B /* Assets.xcassets */; };
+		8A6E81F71E77EDCB00B2762B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6E81F51E77EDCB00B2762B /* LaunchScreen.storyboard */; };
+		8A6E82021E77EDCB00B2762B /* ZWFloatHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E82011E77EDCB00B2762B /* ZWFloatHeaderTests.m */; };
+		8A6E820D1E77EDCB00B2762B /* ZWFloatHeaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E820C1E77EDCB00B2762B /* ZWFloatHeaderUITests.m */; };
+		8A6E82281E77EE0000B2762B /* ZWCollectionCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E821B1E77EE0000B2762B /* ZWCollectionCategoryModel.m */; };
+		8A6E82291E77EE0000B2762B /* ZWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E821D1E77EE0000B2762B /* ZWCollectionViewCell.m */; };
+		8A6E822A1E77EE0000B2762B /* ZWCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E821F1E77EE0000B2762B /* ZWCollectionViewController.m */; };
+		8A6E822B1E77EE0000B2762B /* ZWCollectionViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E82211E77EE0000B2762B /* ZWCollectionViewHeaderView.m */; };
+		8A6E822C1E77EE0000B2762B /* ZWHeaderFloatFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E82231E77EE0000B2762B /* ZWHeaderFloatFlowLayout.m */; };
+		8A6E822D1E77EE0000B2762B /* ZWLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E82251E77EE0000B2762B /* ZWLeftTableViewCell.m */; };
+		8A6E822E1E77EE0000B2762B /* ZWSubCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E82271E77EE0000B2762B /* ZWSubCategoryModel.m */; };
+		8A6E82301E77EE0700B2762B /* liwushuo.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A6E822F1E77EE0700B2762B /* liwushuo.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A6E81FE1E77EDCB00B2762B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6E81D91E77EDCB00B2762B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6E81E01E77EDCB00B2762B;
+			remoteInfo = ZWFloatHeader;
+		};
+		8A6E82091E77EDCB00B2762B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6E81D91E77EDCB00B2762B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6E81E01E77EDCB00B2762B;
+			remoteInfo = ZWFloatHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		659B16A76B8696979BC425B4 /* Pods-ZWFloatHeader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWFloatHeader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWFloatHeader/Pods-ZWFloatHeader.debug.xcconfig"; sourceTree = "<group>"; };
+		6B932E34D497924689161B9F /* libPods-ZWFloatHeader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWFloatHeader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6E81E11E77EDCB00B2762B /* ZWFloatHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWFloatHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6E81E51E77EDCB00B2762B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A6E81E71E77EDCB00B2762B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A6E81E81E77EDCB00B2762B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A6E81EE1E77EDCB00B2762B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A6E81F11E77EDCB00B2762B /* ZWFloatHeader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZWFloatHeader.xcdatamodel; sourceTree = "<group>"; };
+		8A6E81F31E77EDCB00B2762B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A6E81F61E77EDCB00B2762B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A6E81F81E77EDCB00B2762B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6E81FD1E77EDCB00B2762B /* ZWFloatHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWFloatHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6E82011E77EDCB00B2762B /* ZWFloatHeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWFloatHeaderTests.m; sourceTree = "<group>"; };
+		8A6E82031E77EDCB00B2762B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6E82081E77EDCB00B2762B /* ZWFloatHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWFloatHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6E820C1E77EDCB00B2762B /* ZWFloatHeaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWFloatHeaderUITests.m; sourceTree = "<group>"; };
+		8A6E820E1E77EDCB00B2762B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6E821A1E77EE0000B2762B /* ZWCollectionCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionCategoryModel.h; sourceTree = "<group>"; };
+		8A6E821B1E77EE0000B2762B /* ZWCollectionCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionCategoryModel.m; sourceTree = "<group>"; };
+		8A6E821C1E77EE0000B2762B /* ZWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionViewCell.h; sourceTree = "<group>"; };
+		8A6E821D1E77EE0000B2762B /* ZWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionViewCell.m; sourceTree = "<group>"; };
+		8A6E821E1E77EE0000B2762B /* ZWCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionViewController.h; sourceTree = "<group>"; };
+		8A6E821F1E77EE0000B2762B /* ZWCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionViewController.m; sourceTree = "<group>"; };
+		8A6E82201E77EE0000B2762B /* ZWCollectionViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionViewHeaderView.h; sourceTree = "<group>"; };
+		8A6E82211E77EE0000B2762B /* ZWCollectionViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionViewHeaderView.m; sourceTree = "<group>"; };
+		8A6E82221E77EE0000B2762B /* ZWHeaderFloatFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWHeaderFloatFlowLayout.h; sourceTree = "<group>"; };
+		8A6E82231E77EE0000B2762B /* ZWHeaderFloatFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWHeaderFloatFlowLayout.m; sourceTree = "<group>"; };
+		8A6E82241E77EE0000B2762B /* ZWLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLeftTableViewCell.h; sourceTree = "<group>"; };
+		8A6E82251E77EE0000B2762B /* ZWLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLeftTableViewCell.m; sourceTree = "<group>"; };
+		8A6E82261E77EE0000B2762B /* ZWSubCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWSubCategoryModel.h; sourceTree = "<group>"; };
+		8A6E82271E77EE0000B2762B /* ZWSubCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWSubCategoryModel.m; sourceTree = "<group>"; };
+		8A6E822F1E77EE0700B2762B /* liwushuo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = liwushuo.json; sourceTree = "<group>"; };
+		8B0CD46EA9C3CC07C0E9404D /* Pods-ZWFloatHeader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWFloatHeader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWFloatHeader/Pods-ZWFloatHeader.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6E81DE1E77EDCB00B2762B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FAFFB61411631812A3E8DA /* libPods-ZWFloatHeader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6E81FA1E77EDCB00B2762B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6E82051E77EDCB00B2762B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A97CD1FD7B6217310C48156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B932E34D497924689161B9F /* libPods-ZWFloatHeader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82F66E793C9B409945BB0BE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				659B16A76B8696979BC425B4 /* Pods-ZWFloatHeader.debug.xcconfig */,
+				8B0CD46EA9C3CC07C0E9404D /* Pods-ZWFloatHeader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A6E81D81E77EDCB00B2762B = {
+			isa = PBXGroup;
+			children = (
+				8A6E81E31E77EDCB00B2762B /* ZWFloatHeader */,
+				8A6E82001E77EDCB00B2762B /* ZWFloatHeaderTests */,
+				8A6E820B1E77EDCB00B2762B /* ZWFloatHeaderUITests */,
+				8A6E81E21E77EDCB00B2762B /* Products */,
+				82F66E793C9B409945BB0BE0 /* Pods */,
+				2A97CD1FD7B6217310C48156 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6E81E21E77EDCB00B2762B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E81E11E77EDCB00B2762B /* ZWFloatHeader.app */,
+				8A6E81FD1E77EDCB00B2762B /* ZWFloatHeaderTests.xctest */,
+				8A6E82081E77EDCB00B2762B /* ZWFloatHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A6E81E31E77EDCB00B2762B /* ZWFloatHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E822F1E77EE0700B2762B /* liwushuo.json */,
+				8A6E82341E77EF9700B2762B /* 自定义布局 */,
+				8A6E82331E77EF8B00B2762B /* Model */,
+				8A6E82321E77EF7D00B2762B /* View */,
+				8A6E82311E77EF7100B2762B /* Controller */,
+				8A6E81E71E77EDCB00B2762B /* AppDelegate.h */,
+				8A6E81E81E77EDCB00B2762B /* AppDelegate.m */,
+				8A6E81ED1E77EDCB00B2762B /* Main.storyboard */,
+				8A6E81F31E77EDCB00B2762B /* Assets.xcassets */,
+				8A6E81F51E77EDCB00B2762B /* LaunchScreen.storyboard */,
+				8A6E81F81E77EDCB00B2762B /* Info.plist */,
+				8A6E81F01E77EDCB00B2762B /* ZWFloatHeader.xcdatamodeld */,
+				8A6E81E41E77EDCB00B2762B /* Supporting Files */,
+			);
+			path = ZWFloatHeader;
+			sourceTree = "<group>";
+		};
+		8A6E81E41E77EDCB00B2762B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E81E51E77EDCB00B2762B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A6E82001E77EDCB00B2762B /* ZWFloatHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E82011E77EDCB00B2762B /* ZWFloatHeaderTests.m */,
+				8A6E82031E77EDCB00B2762B /* Info.plist */,
+			);
+			path = ZWFloatHeaderTests;
+			sourceTree = "<group>";
+		};
+		8A6E820B1E77EDCB00B2762B /* ZWFloatHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E820C1E77EDCB00B2762B /* ZWFloatHeaderUITests.m */,
+				8A6E820E1E77EDCB00B2762B /* Info.plist */,
+			);
+			path = ZWFloatHeaderUITests;
+			sourceTree = "<group>";
+		};
+		8A6E82311E77EF7100B2762B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E821E1E77EE0000B2762B /* ZWCollectionViewController.h */,
+				8A6E821F1E77EE0000B2762B /* ZWCollectionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8A6E82321E77EF7D00B2762B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E821C1E77EE0000B2762B /* ZWCollectionViewCell.h */,
+				8A6E821D1E77EE0000B2762B /* ZWCollectionViewCell.m */,
+				8A6E82201E77EE0000B2762B /* ZWCollectionViewHeaderView.h */,
+				8A6E82211E77EE0000B2762B /* ZWCollectionViewHeaderView.m */,
+				8A6E82241E77EE0000B2762B /* ZWLeftTableViewCell.h */,
+				8A6E82251E77EE0000B2762B /* ZWLeftTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8A6E82331E77EF8B00B2762B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E821A1E77EE0000B2762B /* ZWCollectionCategoryModel.h */,
+				8A6E821B1E77EE0000B2762B /* ZWCollectionCategoryModel.m */,
+				8A6E82261E77EE0000B2762B /* ZWSubCategoryModel.h */,
+				8A6E82271E77EE0000B2762B /* ZWSubCategoryModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8A6E82341E77EF9700B2762B /* 自定义布局 */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E82221E77EE0000B2762B /* ZWHeaderFloatFlowLayout.h */,
+				8A6E82231E77EE0000B2762B /* ZWHeaderFloatFlowLayout.m */,
+			);
+			name = "自定义布局";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A6E81E01E77EDCB00B2762B /* ZWFloatHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6E82111E77EDCB00B2762B /* Build configuration list for PBXNativeTarget "ZWFloatHeader" */;
+			buildPhases = (
+				77933002597C7E1F511D0326 /* [CP] Check Pods Manifest.lock */,
+				8A6E81DD1E77EDCB00B2762B /* Sources */,
+				8A6E81DE1E77EDCB00B2762B /* Frameworks */,
+				8A6E81DF1E77EDCB00B2762B /* Resources */,
+				BB6C071342F3A8F1E0EC769C /* [CP] Embed Pods Frameworks */,
+				475D79DA64A40151E292D594 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWFloatHeader;
+			productName = ZWFloatHeader;
+			productReference = 8A6E81E11E77EDCB00B2762B /* ZWFloatHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A6E81FC1E77EDCB00B2762B /* ZWFloatHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6E82141E77EDCB00B2762B /* Build configuration list for PBXNativeTarget "ZWFloatHeaderTests" */;
+			buildPhases = (
+				8A6E81F91E77EDCB00B2762B /* Sources */,
+				8A6E81FA1E77EDCB00B2762B /* Frameworks */,
+				8A6E81FB1E77EDCB00B2762B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6E81FF1E77EDCB00B2762B /* PBXTargetDependency */,
+			);
+			name = ZWFloatHeaderTests;
+			productName = ZWFloatHeaderTests;
+			productReference = 8A6E81FD1E77EDCB00B2762B /* ZWFloatHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A6E82071E77EDCB00B2762B /* ZWFloatHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6E82171E77EDCB00B2762B /* Build configuration list for PBXNativeTarget "ZWFloatHeaderUITests" */;
+			buildPhases = (
+				8A6E82041E77EDCB00B2762B /* Sources */,
+				8A6E82051E77EDCB00B2762B /* Frameworks */,
+				8A6E82061E77EDCB00B2762B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6E820A1E77EDCB00B2762B /* PBXTargetDependency */,
+			);
+			name = ZWFloatHeaderUITests;
+			productName = ZWFloatHeaderUITests;
+			productReference = 8A6E82081E77EDCB00B2762B /* ZWFloatHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A6E81D91E77EDCB00B2762B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhengyawei;
+				TargetAttributes = {
+					8A6E81E01E77EDCB00B2762B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+					};
+					8A6E81FC1E77EDCB00B2762B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A6E81E01E77EDCB00B2762B;
+					};
+					8A6E82071E77EDCB00B2762B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A6E81E01E77EDCB00B2762B;
+					};
+				};
+			};
+			buildConfigurationList = 8A6E81DC1E77EDCB00B2762B /* Build configuration list for PBXProject "ZWFloatHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A6E81D81E77EDCB00B2762B;
+			productRefGroup = 8A6E81E21E77EDCB00B2762B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A6E81E01E77EDCB00B2762B /* ZWFloatHeader */,
+				8A6E81FC1E77EDCB00B2762B /* ZWFloatHeaderTests */,
+				8A6E82071E77EDCB00B2762B /* ZWFloatHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A6E81DF1E77EDCB00B2762B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6E81F71E77EDCB00B2762B /* LaunchScreen.storyboard in Resources */,
+				8A6E82301E77EE0700B2762B /* liwushuo.json in Resources */,
+				8A6E81F41E77EDCB00B2762B /* Assets.xcassets in Resources */,
+				8A6E81EF1E77EDCB00B2762B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6E81FB1E77EDCB00B2762B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6E82061E77EDCB00B2762B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		475D79DA64A40151E292D594 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWFloatHeader/Pods-ZWFloatHeader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77933002597C7E1F511D0326 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB6C071342F3A8F1E0EC769C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWFloatHeader/Pods-ZWFloatHeader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A6E81DD1E77EDCB00B2762B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6E822D1E77EE0000B2762B /* ZWLeftTableViewCell.m in Sources */,
+				8A6E822E1E77EE0000B2762B /* ZWSubCategoryModel.m in Sources */,
+				8A6E82281E77EE0000B2762B /* ZWCollectionCategoryModel.m in Sources */,
+				8A6E822C1E77EE0000B2762B /* ZWHeaderFloatFlowLayout.m in Sources */,
+				8A6E81E91E77EDCB00B2762B /* AppDelegate.m in Sources */,
+				8A6E822B1E77EE0000B2762B /* ZWCollectionViewHeaderView.m in Sources */,
+				8A6E81F21E77EDCB00B2762B /* ZWFloatHeader.xcdatamodeld in Sources */,
+				8A6E822A1E77EE0000B2762B /* ZWCollectionViewController.m in Sources */,
+				8A6E81E61E77EDCB00B2762B /* main.m in Sources */,
+				8A6E82291E77EE0000B2762B /* ZWCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6E81F91E77EDCB00B2762B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6E82021E77EDCB00B2762B /* ZWFloatHeaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6E82041E77EDCB00B2762B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6E820D1E77EDCB00B2762B /* ZWFloatHeaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A6E81FF1E77EDCB00B2762B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6E81E01E77EDCB00B2762B /* ZWFloatHeader */;
+			targetProxy = 8A6E81FE1E77EDCB00B2762B /* PBXContainerItemProxy */;
+		};
+		8A6E820A1E77EDCB00B2762B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6E81E01E77EDCB00B2762B /* ZWFloatHeader */;
+			targetProxy = 8A6E82091E77EDCB00B2762B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A6E81ED1E77EDCB00B2762B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6E81EE1E77EDCB00B2762B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A6E81F51E77EDCB00B2762B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6E81F61E77EDCB00B2762B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A6E820F1E77EDCB00B2762B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A6E82101E77EDCB00B2762B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A6E82121E77EDCB00B2762B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659B16A76B8696979BC425B4 /* Pods-ZWFloatHeader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWFloatHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWFloatHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A6E82131E77EDCB00B2762B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0CD46EA9C3CC07C0E9404D /* Pods-ZWFloatHeader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWFloatHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWFloatHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A6E82151E77EDCB00B2762B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWFloatHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWFloatHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWFloatHeader.app/ZWFloatHeader";
+			};
+			name = Debug;
+		};
+		8A6E82161E77EDCB00B2762B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWFloatHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWFloatHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWFloatHeader.app/ZWFloatHeader";
+			};
+			name = Release;
+		};
+		8A6E82181E77EDCB00B2762B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWFloatHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWFloatHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWFloatHeader;
+			};
+			name = Debug;
+		};
+		8A6E82191E77EDCB00B2762B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWFloatHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWFloatHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWFloatHeader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A6E81DC1E77EDCB00B2762B /* Build configuration list for PBXProject "ZWFloatHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6E820F1E77EDCB00B2762B /* Debug */,
+				8A6E82101E77EDCB00B2762B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6E82111E77EDCB00B2762B /* Build configuration list for PBXNativeTarget "ZWFloatHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6E82121E77EDCB00B2762B /* Debug */,
+				8A6E82131E77EDCB00B2762B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6E82141E77EDCB00B2762B /* Build configuration list for PBXNativeTarget "ZWFloatHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6E82151E77EDCB00B2762B /* Debug */,
+				8A6E82161E77EDCB00B2762B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6E82171E77EDCB00B2762B /* Build configuration list for PBXNativeTarget "ZWFloatHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6E82181E77EDCB00B2762B /* Debug */,
+				8A6E82191E77EDCB00B2762B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A6E81F01E77EDCB00B2762B /* ZWFloatHeader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A6E81F11E77EDCB00B2762B /* ZWFloatHeader.xcdatamodel */,
+			);
+			currentVersion = 8A6E81F11E77EDCB00B2762B /* ZWFloatHeader.xcdatamodel */;
+			path = ZWFloatHeader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A6E81D91E77EDCB00B2762B /* Project object */;
+}
